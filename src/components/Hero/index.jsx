@@ -9,7 +9,7 @@ const Hero = () => {
                 <Lottie animationData={animationData} loop={true} />
             </div>
             <h1 className="text-4xl font-bold mt-4">¡Hola, soy Carlos Vera!</h1>
-            <p className="text-lg text-gray-500">Desarrollador Full Stack</p>
+            <p className="text-lg text-gray-500 mt-1">Desarrollador Full Stack</p>
         </section>
     );
 };
