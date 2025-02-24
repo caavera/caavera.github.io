@@ -1,11 +1,14 @@
 import Navbar from "../Navbar";
+import Background from "../Background";
 
 const Layout = ({ children }) => {
     return (
-        <div className="bg-red min-h-screen">
+        <div className="relative">
+            <Background />
             <Navbar />
-            <main className="mt-16">{children}</main>
-            {/* Aquí irá el Footer cuando lo tengamos */}
+            <main className="relative z-10">
+                {children}
+            </main>
         </div>
     );
 };
