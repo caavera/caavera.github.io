@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        var redirect = window.location.href.split('/').slice(3).join('/');
+        window.location.href = window.location.origin + "/#" + redirect;
+    </script>
+</head>
+<body></body>
+</html>
