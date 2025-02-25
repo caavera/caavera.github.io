@@ -5,12 +5,12 @@ import animationData from "../../assets/hero-animation.json";
 
 const Hero = () => {
     return (
-        <section className="h-screen flex flex-col md:flex-row items-center justify-center px-8 md:px-20">
+        <section className="h-screen flex flex-col md:flex-row items-center justify-center px-4 md:px-20">
             {/* TEXTO - IZQUIERDA */}
-            <div className="text-center md:text-left space-y-4 md:w-1/2">
+            <div className="ml-4 text-left md:text-left space-y-4 md:w-1/2">
                 {/* Saludo con animación más natural y rápida */}
                 <motion.div 
-                    className="text-4xl text-white flex items-center justify-center md:justify-start mb-6"
+                    className="text-4xl text-white flex items-center mt-36 md:mt-0 mb-6"
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
@@ -31,7 +31,6 @@ const Hero = () => {
                     >
                         👋🏻 
                     </motion.span>
-
                 </motion.div>
 
                 {/* Nombre con degradado */}
@@ -43,7 +42,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Efecto de máquina de escribir */}
-                <p className="text-4xl text-purple-400 font-semibold mt-20">
+                <p className="text-2xl md:text-4xl text-purple-400 font-semibold mt-16 md:mt-20">
                     <Typewriter 
                         words={["Desarrollador Full Stack", "Ingeniero de Sistemas"]}
                         loop={true}
@@ -58,7 +57,7 @@ const Hero = () => {
 
             {/* ANIMACIÓN - DERECHA */}
             <motion.div
-                className="w-72 md:w-96 md:ml-16 mt-10 md:mt-0 transform scale-x-[-1]" // Reflejo horizontal
+                className="w-64 md:w-96 md:ml-16 mt-10 md:mt-0 transform scale-x-[-1]" // Reflejo horizontal
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7 }} // Entrada más rápida
