@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HomeIcon, UserIcon, CodeBracketIcon, AcademicCapIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -11,24 +11,22 @@ const Navbar = () => {
             <div className="max-w-6xl mx-auto flex items-center justify-between">
                 
                 {/* LOGO */}
-                <NavLink to="/" className="text-2xl font-bold text-purple-400">
-                    CV.
-                </NavLink>
+                <div className="text-2xl font-bold text-purple-400">CV.</div>
 
                 {/* DESKTOP NAV */}
                 <div className="hidden md:flex space-x-12">
-                    <NavLink to="/" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
+                    <Link to="/" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
                         <HomeIcon className="w-6 h-6 mr-2" /> Inicio
-                    </NavLink>
-                    <NavLink to="/about" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
+                    </Link>
+                    <Link to="/about" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
                         <UserIcon className="w-6 h-6 mr-2" /> Sobre mí
-                    </NavLink>
-                    <NavLink to="/projects" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
+                    </Link>
+                    <Link to="/projects" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
                         <CodeBracketIcon className="w-6 h-6 mr-2" /> Proyectos
-                    </NavLink>
-                    <NavLink to="/certifications" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
+                    </Link>
+                    <Link to="/certifications" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition">
                         <AcademicCapIcon className="w-6 h-6 mr-2" /> Certificaciones
-                    </NavLink>
+                    </Link>
                 </div>
 
                 {/* MOBILE MENU BUTTON */}
@@ -51,18 +49,18 @@ const Navbar = () => {
                         className="md:hidden absolute top-16 left-0 w-full bg-black/90 backdrop-blur-md border-b border-gray-700 shadow-lg"
                     >
                         <div className="flex flex-col items-center py-4 space-y-4">
-                            <NavLink to="/" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
+                            <Link to="/" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
                                 <HomeIcon className="w-6 h-6 mr-2" /> Inicio
-                            </NavLink>
-                            <NavLink to="/about" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
+                            </Link>
+                            <Link to="/about" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
                                 <UserIcon className="w-6 h-6 mr-2" /> Sobre mí
-                            </NavLink>
-                            <NavLink to="/projects" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
+                            </Link>
+                            <Link to="/projects" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
                                 <CodeBracketIcon className="w-6 h-6 mr-2" /> Proyectos
-                            </NavLink>
-                            <NavLink to="/certifications" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
+                            </Link>
+                            <Link to="/certifications" className="flex items-center text-lg font-bold text-white hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>
                                 <AcademicCapIcon className="w-6 h-6 mr-2" /> Certificaciones
-                            </NavLink>
+                            </Link>
                         </div>
                     </motion.div>
                 )}

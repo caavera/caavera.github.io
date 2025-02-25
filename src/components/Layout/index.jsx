@@ -12,7 +12,7 @@ const Layout = () => {
             <Navbar />
             
             {/* Contenido de la página que cambia con las rutas */}
-            <main className="relative z-10 px-6 md:px-20 pt-20">
+            <main className="relative z-10 px-6 md:px-20">
                 <Outlet />
             </main>
         </div>
