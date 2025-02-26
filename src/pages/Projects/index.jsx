@@ -12,11 +12,11 @@ const Projects = () => {
                 Estos son algunos de los proyectos en los que he trabajado recientemente.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 px-12 xlg:p-18">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 px-1 lg:px-12 xlg:p-18">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
-                        className="bg-black/20 border border-[#6B3FA0] rounded-lg p-9 shadow-lg hover:shadow-[#6B3FA0] transition duration-300"
+                        className="bg-black/20 border border-[#6B3FA0] rounded-lg p-3 lg:p-9 shadow-lg hover:shadow-[#6B3FA0] transition duration-300"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
