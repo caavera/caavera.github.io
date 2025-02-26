@@ -1,8 +1,37 @@
-# React + Vite
+# 🌐 Mi Portafolio Web - Carlos Vera
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portafolio web personal, donde muestro mis proyectos, certificaciones y habilidades como desarrollador.
 
-Currently, two official plugins are available:
+🚀 **Desarrollado con:**  
+- React 19 + Vite
+- TailwindCSS V4
+- Framer Motion (Animaciones)
+- React Router (Navegación)
+- GitHub Pages (Despliegue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 **Ver el Portafolio en Línea**
+📌 [https://caavera.github.io](https://caavera.github.io)
+
+---
+
+## 🚀 **Instalación y Uso Local**
+1. **Clonar el repositorio**
+   ```sh
+   git clone https://github.com/caavera/caavera.github.io.git
+   cd caavera.github.io
+   ```
+
+2. **Instalar dependencias**
+   ```sh
+   npm install
+   ```
+
+3. **Ejecutar en desarrollo**
+   ```sh
+   npm run dev
+   ```
+
+---
+
+## 📜 **Licencia**
+Este proyecto es de código abierto y puede ser utilizado como referencia para crear portafolios con **React + Vite**.

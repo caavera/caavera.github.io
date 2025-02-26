@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const CertificateCard = ({ title, image }) => {
+
     const [isOpen, setIsOpen] = useState(false);
 
     return (
