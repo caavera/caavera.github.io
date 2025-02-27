@@ -5,8 +5,8 @@ import projects from "../../data/projects";
 const Projects = () => {
     return (
         <section className="py-20 px-6 md:px-20">
-            <h2 className="text-4xl font-bold text-center text-white">
-                Mis <span className="text-[#6B3FA0]">Proyectos</span> Recientes
+            <h2 className="text-4xl font-bold text-center text-white mb-4">
+                Mis <span className="bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">Proyectos</span> Recientes
             </h2>
             <p className="text-center text-gray-400 mt-2">
                 Estos son algunos de los proyectos en los que he trabajado recientemente.
@@ -39,7 +39,7 @@ const Projects = () => {
                                 </a>
                             )}
                             {project.npm && (
-                                <a href={project.npm} target="_blank" className="bg-[#6B3FA0] text-white px-4 py-2 rounded-lg flex items-center hover:bg-red-700 transition">
+                                <a href={project.npm} target="_blank" className="bg-[#6B3FA0] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#54318C] transition">
                                     <FaNpm className="mr-2" /> NPM
                                 </a>
                             )}

@@ -35,8 +35,9 @@ const Skillset = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
             >
-                Profesional <span className="bg-gradient-to-r from-purple-400 to-purple-700 text-transparent bg-clip-text">Skillset</span>
+                Habilidades <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">Profesionales</span>
             </motion.h2>
+
 
             {/* Tecnologías */}
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">
@@ -61,7 +62,7 @@ const Skillset = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
             >
-                <span className="bg-gradient-to-r from-purple-400 to-purple-700 text-transparent bg-clip-text">Tools</span> I use
+                <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">Herramientas</span> que uso
             </motion.h3>
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">

@@ -6,7 +6,7 @@ const Certifications = () => {
     return (
         <section className="py-20 px-6 md:px-20">
             <h2 className="text-4xl font-bold text-center text-white">
-                Mis <span className="text-purple-400">Certificaciones</span>
+                Mis <span className="bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">Certificaciones</span>
             </h2>
             <p className="text-center text-gray-400 mt-2">
                 Aquí puedes ver algunos de los cursos y certificaciones que he completado.
