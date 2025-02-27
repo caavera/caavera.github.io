@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HomeIcon, UserIcon, CodeBracketIcon, AcademicCapIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { FaCodeBranch, FaStar } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
                 <div className="text-2xl font-bold text-purple-400">CV.</div>
 
                 {/* DESKTOP NAV */}
-                <div className="hidden md:flex space-x-12">
+                <div className="hidden md:flex items-center space-x-12">
                     {[
                         { to: "/", text: "Inicio", icon: HomeIcon },
                         { to: "/about", text: "Sobre mí", icon: UserIcon },
@@ -33,6 +34,17 @@ const Navbar = () => {
                             <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-purple-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                         </Link>
                     ))}
+
+                    {/* BOTÓN DE GITHUB REPO */}
+                    <a 
+                        href="https://github.com/caavera/caavera.github.io" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 bg-[#6B3FA0] text-white px-4 py-2 rounded-lg hover:bg-[#54318C] transition transform hover:scale-102 shadow-lg"
+                    >
+                        <FaCodeBranch className="w-5 h-5" />
+                        <FaStar className="w-5 h-5" />
+                    </a>
                 </div>
 
                 {/* MOBILE MENU BUTTON */}
@@ -74,6 +86,17 @@ const Navbar = () => {
                                     <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-purple-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                                 </Link>
                             ))}
+
+                            {/* BOTÓN DE GITHUB REPO EN MOBILE */}
+                            <a 
+                                href="https://github.com/caavera/caavera.github.io" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-2 bg-[#6B3FA0] text-white px-4 py-2 rounded-lg hover:bg-[#54318C] transition transform hover:scale-102 shadow-lg"
+                            >
+                                <FaCodeBranch className="w-5 h-5" />
+                                <FaStar className="w-5 h-5" />
+                            </a>
                         </div>
                     </motion.div>
                 )}
