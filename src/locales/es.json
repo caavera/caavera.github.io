@@ -9,5 +9,14 @@
     "footer": {
         "developedBy": "Desarrollado por",
         "copyright": "Copyright"
+    },
+    "hero": {
+        "greeting": "¡Hola!",
+        "intro": "Yo soy",
+        "name": "Carlos Vera",
+        "professions": [
+            "Desarrollador Full Stack",
+            "Ingeniero de Sistemas"
+        ]
     }
 }
