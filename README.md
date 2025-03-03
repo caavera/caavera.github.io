@@ -1,37 +1,42 @@
-# 🌐 Mi Portafolio Web - Carlos Vera
+<h1 align="center">🌐 My Web Portfolio</h1>
 
-Este es mi portafolio web personal, donde muestro mis proyectos, certificaciones y habilidades como desarrollador.
+<p align="center">
+  <a href="https://caavera.github.io" target="_blank">📌 View the Online Portfolio</a>
+</p>
 
-🚀 **Desarrollado con:**  
-- React 19 + Vite
-- TailwindCSS V4
-- Framer Motion (Animaciones)
-- React Router (Navegación)
-- GitHub Pages (Despliegue)
+<p align="center">
+  <img alt="Made with Love" src="https://forthebadge.com/images/badges/built-with-love.svg" />
+  <img alt="Made with JavaScript" src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
+  <img alt="Open Source" src="https://forthebadge.com/images/badges/open-source.svg" />
+</p>
 
-## 🔗 **Ver el Portafolio en Línea**
-📌 [https://caavera.github.io](https://caavera.github.io)
+🚀 **Built with:**  
+- React 19 + Vite  
+- TailwindCSS V4  
+- Framer Motion (Animations)  
+- React Router (Navigation)  
+- GitHub Pages (Deployment)  
 
 ---
 
-## 🚀 **Instalación y Uso Local**
-1. **Clonar el repositorio**
+## 🚀 **Installation and Local Usage**
+1. **Clone the repository**
    ```sh
    git clone https://github.com/caavera/caavera.github.io.git
    cd caavera.github.io
    ```
 
-2. **Instalar dependencias**
+2. **Install dependencies**
    ```sh
    npm install
    ```
 
-3. **Ejecutar en desarrollo**
+3. **Run in development**
    ```sh
    npm run dev
    ```
 
 ---
 
-## 📜 **Licencia**
-Este proyecto es de código abierto y puede ser utilizado como referencia para crear portafolios con **React + Vite**.
+## 📜 **License**
+This project is open source and can be used as a reference for creating portfolios with **React + Vite**.
