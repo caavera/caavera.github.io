@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "certifications": "Certificaciones",
+        "language": "🇪🇸"
+    },
+    "footer": {
+        "developedBy": "Desarrollado por",
+        "copyright": "Copyright"
+    }
+}

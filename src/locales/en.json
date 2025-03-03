@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "certifications": "Certifications",
+        "language": "EN"
+    },
+    "footer": {
+        "developedBy": "Developed by",
+        "copyright": "Copyright"
+    }
+}
