@@ -10,6 +10,15 @@
         "developedBy": "Developed by",
         "copyright": "Copyright"
     },
+    "hero": {
+        "greeting": "Hello!",
+        "intro": "I am",
+        "name": "Carlos Vera",
+        "professions": [
+            "Full Stack Developer",
+            "Systems Engineer"
+        ]
+    },
     "about": {
         "title": "About Me",
         "intro": "Hello everyone, I'm Carlos Vera from La Dorada, Colombia.",
