@@ -10,13 +10,33 @@
         "developedBy": "Desarrollado por",
         "copyright": "Copyright"
     },
-    "hero": {
-        "greeting": "¡Hola!",
-        "intro": "Yo soy",
-        "name": "Carlos Vera",
-        "professions": [
-            "Desarrollador Full Stack",
-            "Ingeniero de Sistemas"
+    "about": {
+        "title": "Conóceme",
+        "intro": "Hola a todos, soy Carlos Vera de La Dorada, Colombia.",
+        "paragraph1": "Ingeniero de Sistemas graduado de la Universidad Autónoma de Manizales, con experiencia en desarrollo de software y pasión por la tecnología y el aprendizaje continuo.",
+        "paragraph2": "Además de programar, algunas otras actividades que me encanta hacer:",
+        "activities": [
+            "Jugar videojuegos 🎮",
+            "Leer libros 📚",
+            "Aprender cosas nuevas 🚀"
         ]
+    },
+    "skillset": {
+        "title": "Habilidades",
+        "titleGradient": "Profesionales",
+        "toolsTitleGradient": "Herramientas",
+        "toolsTitleSuffix": "que uso"
+    },
+    "projects": {
+        "titleStart": "Mis",
+        "titleGradient": "Proyectos",
+        "titleSuffix": "Recientes",
+        "description": "Estos son algunos de los proyectos en los que he trabajado recientemente."
+    },
+    "certifications": {
+        "title": "Mis",
+        "titleGradient": "Certificaciones",
+        "description": "Aquí puedes ver algunos de los cursos y certificaciones que he completado.",
+        "noCertifications": "No hay certificaciones disponibles."
     }
 }

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaGithub, FaPython, FaJava, FaNpm } from "react-icons/fa";
 import { SiPostgresql, SiTailwindcss, SiVite, SiPostman, SiDocker, SiLinux } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 const skills = [
     { name: "JavaScript", icon: <FaJs /> },
@@ -26,6 +27,8 @@ const tools = [
 ];
 
 const Skillset = () => {
+    const { t } = useTranslation();
+
     return (
         <section className="py-20 px-6 md:px-20">
             {/* Título */}
@@ -35,7 +38,7 @@ const Skillset = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
             >
-                Habilidades <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">Profesionales</span>
+                {t("skillset.title")} <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">{t("skillset.titleGradient")}</span>
             </motion.h2>
 
 
@@ -62,7 +65,7 @@ const Skillset = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
             >
-                <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">Herramientas</span> que uso
+                <span className="bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">{t("skillset.toolsTitleGradient")}</span> {t("skillset.toolsTitleSuffix")}
             </motion.h3>
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">

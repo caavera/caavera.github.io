@@ -1,15 +1,18 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaNpm } from "react-icons/fa";
 import projects from "../../data/projects";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+    const { t } = useTranslation();
+    
     return (
         <section className="py-20 px-6 md:px-20">
             <h2 className="text-4xl font-bold text-center text-white mb-4">
-                Mis <span className="bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">Proyectos</span> Recientes
+            {t("projects.titleStart")} <span className="bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">{t("projects.titleGradient")}</span> {t("projects.titleSuffix")}
             </h2>
             <p className="text-center text-gray-400 mt-2">
-                Estos son algunos de los proyectos en los que he trabajado recientemente.
+                {t("projects.description")}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 px-1 lg:px-12 xlg:p-18">

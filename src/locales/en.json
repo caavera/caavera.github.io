@@ -10,13 +10,33 @@
         "developedBy": "Developed by",
         "copyright": "Copyright"
     },
-    "hero": {
-        "greeting": "Hello!",
-        "intro": "I am",
-        "name": "Carlos Vera",
-        "professions": [
-            "Full Stack Developer",
-            "Systems Engineer"
+    "about": {
+        "title": "About Me",
+        "intro": "Hello everyone, I'm Carlos Vera from La Dorada, Colombia.",
+        "paragraph1": "Systems Engineer graduated from Universidad Autónoma de Manizales, with experience in software development and a passion for technology and continuous learning.",
+        "paragraph2": "Besides programming, some other activities I love to do are:",
+        "activities": [
+            "Playing video games 🎮",
+            "Reading books 📚",
+            "Learning new things 🚀"
         ]
+    },
+    "skillset": {
+        "title": "Professional",
+        "titleGradient": "Skillset",
+        "toolsTitleGradient": "Tools",
+        "toolsTitleSuffix": "I use"
+    },
+    "projects": {
+        "titleStart": "My",
+        "titleGradient": "Recent",
+        "titleSuffix": "Projects",
+        "description": "These are some of the projects I have recently worked on."
+    },
+    "certifications": {
+        "title": "My",
+        "titleGradient": "Certifications",
+        "description": "Here you can see some of the courses and certifications I have completed.",
+        "noCertifications": "No certifications available."
     }
 }
