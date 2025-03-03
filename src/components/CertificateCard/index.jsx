@@ -17,7 +17,12 @@ const CertificateCard = ({ title, image }) => {
                 onClick={() => setIsOpen(true)}
             >
                 <div className="relative w-full aspect-[16/10] bg-gray-900 rounded-lg overflow-hidden">
-                    <img src={image} alt={title} className="w-full h-full object-cover" />
+                    <img 
+                        src={image} 
+                        alt={title} 
+                        loading="lazy" 
+                        className="w-full h-full object-cover" 
+                    />
                 </div>
                 <h3 className="text-lg font-semibold text-white mt-2 text-center">{title}</h3>
             </motion.div>
@@ -35,8 +40,12 @@ const CertificateCard = ({ title, image }) => {
                             <XMarkIcon className="w-6 h-6" />
                         </button>
 
-
-                        <img src={image} alt={title} className="w-full h-auto rounded-lg" />
+                        <img 
+                            src={image} 
+                            alt={title} 
+                            loading="lazy" 
+                            className="w-full h-auto rounded-lg" 
+                        />
                         <h3 className="text-lg font-semibold text-white mt-2 text-center">{title}</h3>
                     </div>
                 </div>
