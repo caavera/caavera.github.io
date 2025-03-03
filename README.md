@@ -19,7 +19,8 @@
 - TailwindCSS V4  
 - Framer Motion (Animations)  
 - React Router (Navigation)  
-- GitHub Pages (Deployment)  
+- GitHub Pages (Deployment) 
+- i18n (Internationalization) 
 
 ---
 
