@@ -1,13 +1,17 @@
-<h1 align="center">🌐 My Web Portfolio</h1>
+<h1 align="center">My Web Portfolio</h1>
 
 <p align="center">
-  <a href="https://caavera.github.io" target="_blank">📌 View the Online Portfolio</a>
+  <strong><a href="https://caavera.github.io" target="_blank">caavera.github.io</a></strong>
 </p>
 
-<p align="center">
+<p>
   <img alt="Made with Love" src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img alt="Made with JavaScript" src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
   <img alt="Open Source" src="https://forthebadge.com/images/badges/open-source.svg" />
+</p>
+
+<p>
+  This is my personal web portfolio, where I showcase my projects, certifications, and skills as a developer.
 </p>
 
 🚀 **Built with:**  
